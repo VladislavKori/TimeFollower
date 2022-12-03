@@ -1,0 +1,30 @@
+.modal {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(45deg, #606c88, #3f4c6b);
+    padding: 20px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    &__btn {
+        background: red;
+        cursor: pointer;
+        color: #fff;
+    }
+
+}
